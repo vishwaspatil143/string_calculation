@@ -8,5 +8,10 @@ describe StringCalculator do
         expect(StringCalculator.add("")).to eq(0)
       end
     end
+    context "Single input number" do
+      it "returns 5" do
+        expect(StringCalculator.add("5")).to eq(5)
+      end
+    end
   end
 end

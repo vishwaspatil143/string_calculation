@@ -80,3 +80,30 @@ int add(string numbers)
 * 🟢 **Make it pass with minimal code**
 * 🔁 **Refactor and improve code if needed**
 
+---
+
+## 🔁 Execute the Code
+
+To run the project, use the following command from the root directory:
+
+```bash
+ruby execute_project.rb
+```
+
+> Example output:
+
+<img width="1013" height="331" alt="Execution Example" src="https://github.com/user-attachments/assets/fed3c957-850a-427e-96af-8e89dd28ee84" />
+
+---
+
+## 🧪 Run Test Cases
+
+Make sure you're in the project directory, then run:
+
+```bash
+rspec
+```
+
+This will execute all test cases using RSpec and display the results in your terminal.
+
+---

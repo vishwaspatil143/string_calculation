@@ -18,5 +18,10 @@ describe StringCalculator do
         expect(StringCalculator.add("2,3")).to eq(5)
       end
     end
+    context "give comma separated numbers" do
+      it "returns 15" do
+        expect(StringCalculator.add("1,2,3,4,5")).to eq(15)
+      end
+    end
   end
 end

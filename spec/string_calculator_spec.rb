@@ -23,5 +23,10 @@ describe StringCalculator do
         expect(StringCalculator.add("1,2,3,4,5")).to eq(15)
       end
     end
+    context "give new line delimeter with comma" do
+      it "returns 10" do
+        expect(StringCalculator.add("4\n4,2")).to eq(10)
+      end
+    end
   end
 end

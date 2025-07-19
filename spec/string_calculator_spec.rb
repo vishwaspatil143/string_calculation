@@ -28,5 +28,10 @@ describe StringCalculator do
         expect(StringCalculator.add("4\n4,2")).to eq(10)
       end
     end
+    context "give a numbers string with a custom delimiter" do
+      it "returns 6 for '//;\\n1;2;3'" do
+        expect(StringCalculator.add("//;\n1;2;3")).to eq(6)
+      end
+    end
   end
 end

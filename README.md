@@ -1,7 +1,3 @@
-Here's a clean, well-formatted, and professional version of your README **TODO Workflow** for the String Calculator:
-
----
-
 # 🧪 TDD Workflow: String Calculator
 
 This project follows the **Test-Driven Development (TDD)** approach to implement a simple string-based calculator. Each step introduces new functionality, ensuring tests are written **before** the code.

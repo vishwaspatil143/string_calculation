@@ -3,7 +3,9 @@ class StringCalculator
     if input_string.empty?
       0
     else
-      input_string.to_i
+      puts "-----------#{input_string.split(',').inspect}"
+      sum_of_numbers = input_string.split(',').map { |num| num.to_i }
+      sum_of_numbers.sum
     end
   end
 end

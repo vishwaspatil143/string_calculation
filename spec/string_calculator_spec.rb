@@ -13,5 +13,10 @@ describe StringCalculator do
         expect(StringCalculator.add("5")).to eq(5)
       end
     end
+    context "give two numbers comma separated" do
+      it "calculate two numbers sum" do
+        expect(StringCalculator.add("2,3")).to eq(5)
+      end
+    end
   end
 end

@@ -16,6 +16,13 @@ class StringCalculator
       end
 
       numbers = numbers_string.split(delimiter).map(&:to_i)
+      
+      negatives = numbers.select { |n| n < 0 }
+
+      if negatives.any?
+        raise ArgumentError, "Negative numbers are not allowed: #{negatives.join(', ')}"
+      end
+
       numbers.sum
     end
   end
